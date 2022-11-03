@@ -1,0 +1,53 @@
+#etusivu
+
+body,html {
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: inline;
+    margin: auto;
+    width: 1200px;
+}
+#logo {
+    margin-right: auto;
+    width: 6em;
+    height: 6em;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    box-shadow: rgb(28 32 93 /24%) 0px 2px 8px 0px;
+    object-fit: cover;
+}
+header nav {
+    float: right;
+    padding-right: 0;
+    padding-top: 20px;
+}
+
+.Link {
+    background-color: #fffa;
+    backdrop-filter: blur(2em) saturate(120%) contrast(190%);
+    border-radius: 20em;
+    padding: 1em;
+    margin: 1.4em 0;
+    box-shadow: rgb(28 32 93 /24%) 0px 2px 8px 0px;
+    text-shadow: red -2px 0, cyan 2px 0;
+}
+#pagetxt {
+    margin: 0 auto;
+    font-size: 146px;
+    text-align: center;
+    text-shadow: red -2px 0, cyan 2px 0;
+    margin-bottom: 20px;
+
+}
+.btb {
+    display: flex;
+}
+
+#tokasivu
+
+
