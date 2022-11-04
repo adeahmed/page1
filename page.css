@@ -1,10 +1,10 @@
-#etusivu
+/* etusivu */
 
-body,html {
-    margin: 0%;
-    padding: 0%;
-    background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    position: relative;
+    margin: 0px;
+    min-height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 #vanta {
     z-index: -1;
@@ -14,6 +14,9 @@ body,html {
     width: 100%;
     height: 100%;
 
+}
+.vanta-canvas{
+    height: 100% !important;
 }
 
 nav .container {
@@ -41,10 +44,7 @@ p#txt{
 }
 header nav {
     display: flex;
-    float: left;
     padding-right: 0;
-    padding-top: 20px;
-    object-fit: cover;
 }
 
 .link {
@@ -55,6 +55,8 @@ header nav {
     margin: 1.4em 0;
     box-shadow: rgb(28 32 93 /24%) 0px 2px 8px 0px;
     text-shadow: red -2px 0, cyan 2px 0;
+    text-decoration: none;
+    font-size: 22px;
     
 }
 #pagetxt {
@@ -63,17 +65,59 @@ header nav {
     text-align: center;
     text-shadow: red -2px 0, cyan 2px 0;
     margin-bottom: 20px;
+    
 
 }
 .btb {
     display: flex;
+    gap: 21px;
+
 }
 
-#tuotesivu
-img > #img {
+/* #etusivu */
+
+img, #img{
+    margin: auto;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     object-fit: cover;
 }
 
+.imgContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+p , #txt2 {
+    display: flex;
+    justify-content: center;
+}
+h1.txt1 {
+    text-shadow: red -2px 0, cyan 2px 0;
+    font-size: 53px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.img ,#item{  
+    flex-grow: 0;
+    width: 50px;
+    max-width: 250px;
+    min-width: min-content;
+    background-color: rgba(1 1 1 / 4%);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px rgba(1 1 1 / 41%);
+    }
 
+
+/* #vikasivu */
+
+div .column {
+    display: inline;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}

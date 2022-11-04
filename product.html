@@ -6,11 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ade Ahmed -Web</title>
     <link href="/page.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", () =>{
+            VANTA.BIRDS({
+      el: "#vanta",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color1: 0xd91a1a,
+      backgroundAlpha: 0.04
+    })
+        })
+    
+    </script>
+    </script>
 </head>
 <body>
+    <div id="vanta"></div>
     <header>
         <nav>
-            <img id="logo" src="/image/7f47c7ca9e09657ce5bdf884f90ee29b.jpeg" alt="Pagelogo" style="width: 5rem; height: 5rem;">
+            <img id="logo" src="/image/7f47c7ca9e09657ce5bdf884f90ee29b.jpeg" alt="Pagelogo" style="width: 5rem; height: 5rem; object-fit: cover;">
             <div class="btb">
                 <a href="/home.html" class="link"><span>Home</span></a>
                 <a href="/product.html" class="link"><span>Products</span></a>
@@ -18,27 +39,27 @@
             </div>
         </nav>
     </header>
-    <h1>Products</h1>
+    <h1 class="txt1">Products</h1>
     <img id="img" src="image/lm3z0xa1c2051.jpeg" alt="Pöllö"style="width: 27rem; height: 27rem;">
-         <p>October's Very Own</p>
+         <p id="txt2">October's Very Own</p>
     <div class="imgContainer">
         <div class="img">
             <h2>Product 1</h2>
-            <img id="" src="/image/20564748.jpeg" alt="Pöllö" style="width: 10rem; height: 15rem;" > 
+            <img id="item" src="/image/20564748.jpeg" alt="Pöllö" style="width: 10rem; height: 15rem; object-fit: cover;" > 
             <h3>Product 1</h3>
-            <p>October's Very Own</p>
+            <p>October's </p>
         </div>
         <div class="img">
             <h2>Product 2</h2>
-            <img id="item" src="/image/lajgaua1c2051.jpeg" alt="Pöllö" style="width: 10rem; height: 15rem;"> 
+            <img id="item" src="/image/lajgaua1c2051.jpeg" alt="Pöllö" style="width: 10rem; height: 15rem; object-fit: cover;"> 
             <h3>Product 2</h3>
-            <p>October's Very Own</p>
+            <p>Very</p>
         </div>
         <div class="img">
             <h2>Product 3</h2>
-            <img id="item" src="/image/whz2a9c1c2051.jpeg" alt="Pöllö" style="width: 10rem; height: 15rem;">
+            <img id="item" src="/image/whz2a9c1c2051.jpeg" alt="Pöllö" style="width: 10rem; height: 15rem;object-fit: cover;">
             <h3>Product 3</h3>
-            <p>October's Very Own</p>
+            <p>Own</p>
         </div>
     </div>
 </body>
