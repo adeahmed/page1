@@ -6,15 +6,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ade Ahmed -Web</title>
         <link href="/page.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+<script>
+    window.addEventListener("DOMContentLoaded", () =>{
+        VANTA.BIRDS({
+  el: "#vanta",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color1: 0xd91a1a,
+  backgroundAlpha: 0.04
+})
+    })
+
+</script>
+</script>
     </head>
     <body>
+        <div id="vanta"></div>
         <header>
             <nav>
                 <img id="logo" src="/image/7f47c7ca9e09657ce5bdf884f90ee29b.jpeg" alt="Pagelogo" style="width: 5rem; height: 5rem;">
                 <div class="btb">
-                <a href="/home.html" class="Link"><span>Home</span></a>
-                <a href="/product.html" class="Link"><span>Products</span></a>
-                <a href="/contact.html" class="Link"><span>Contact</span></a>
+                <a href="/home.html" class="link"><span>Home</span></a>
+                <a href="/product.html" class="link"><span>Products</span></a>
+                <a href="/contact.html" class="link"><span>Contact</span></a>
                 </div>
                 </nav>
             </header>
@@ -22,7 +43,7 @@
                 <div class="container">
                     <section id="home">
                         <h1 id="pagetxt">CompanyX</h1>
-                        <img src="/image/lm3z0xa1c2051.jpeg" alt="ovo" style="width: 27rem; height: 27rem;">
+                        <img id="pic" src="/image/lm3z0xa1c2051.jpeg" alt="ovo" style="width: 27rem; height: 27rem;">
                         <p id="txt">October's Very Own</p>
                     </section>
             </main>

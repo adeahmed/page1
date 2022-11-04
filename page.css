@@ -6,11 +6,18 @@ body,html {
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#vanta {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 
-.container {
-    display: inline;
-    margin: auto;
-    width: 1200px;
+}
+
+nav .container {
+    margin-right: auto;
 }
 #logo {
     margin-right: auto;
@@ -21,13 +28,26 @@ body,html {
     box-shadow: rgb(28 32 93 /24%) 0px 2px 8px 0px;
     object-fit: cover;
 }
+img#pic {
+    display: flex;
+    margin: auto;
+    justify-items: center;
+    object-fit: cover;
+}
+p#txt{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
 header nav {
-    float: right;
+    display: flex;
+    float: left;
     padding-right: 0;
     padding-top: 20px;
+    object-fit: cover;
 }
 
-.Link {
+.link {
     background-color: #fffa;
     backdrop-filter: blur(2em) saturate(120%) contrast(190%);
     border-radius: 20em;
@@ -35,6 +55,7 @@ header nav {
     margin: 1.4em 0;
     box-shadow: rgb(28 32 93 /24%) 0px 2px 8px 0px;
     text-shadow: red -2px 0, cyan 2px 0;
+    
 }
 #pagetxt {
     margin: 0 auto;
@@ -48,6 +69,11 @@ header nav {
     display: flex;
 }
 
-#tokasivu
+#tuotesivu
+img > #img {
+    display: flex;
+    justify-items: center;
+    object-fit: cover;
+}
 
 
