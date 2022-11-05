@@ -23,7 +23,7 @@ nav .container {
     margin-right: auto;
 }
 #logo {
-    margin-right: auto;
+    margin-left: 20px;
     width: 6em;
     height: 6em;
     border-radius: 100%;
@@ -71,7 +71,7 @@ header nav {
 .btb {
     display: flex;
     gap: 21px;
-
+    margin-right: 20px;
 }
 
 /* #etusivu */
@@ -97,7 +97,7 @@ h1.txt1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
-.img ,#item{  
+.img ,.item{  
     flex-grow: 0;
     width: 50px;
     max-width: 250px;
@@ -106,10 +106,10 @@ h1.txt1 {
     margin: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     padding: 0px;
     box-sizing: border-box;
-    box-shadow: 4px 4px rgba(1 1 1 / 41%);
+    box-shadow: 4px 4px rgba(1, 1, 1, 0.194);
     }
 
 
@@ -121,3 +121,38 @@ div .column {
     width: 33.33%;
     padding: 5px;
 }
+h2.us {
+    text-shadow: red -2px 0, cyan 2px 0;
+    font-size: 53px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+
+.contact.container div.title{
+    width: 100%;
+}
+
+.contact.container div.content{
+    width: 50%;
+    display: inline;
+}
+
+.contact.container div.image-with-caption{
+    width: 100%;
+}
+
+.contact.container p{
+    display: block;
+}
+.w-100{
+    width: 100%;
+}
+
+
+
+
